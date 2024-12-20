@@ -57,9 +57,9 @@ const isNameValidFn = () => {
 */
 
 let checker = document.getElementById("Terms");
-let sendbtn = document.getElementById("formbutton");
+let subButton = document.getElementById("formbutton");
 checker.onchange = function () {
-  sendbtn.disabled = !!this.checked;
+  subButton.disabled = !!this.checked;
 };
 
 // $("#check").click(function () {
